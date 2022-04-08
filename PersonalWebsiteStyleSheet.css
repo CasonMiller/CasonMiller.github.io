@@ -10,15 +10,15 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 200;
-    height: 200;
+    width: 200px;
+    height: 200px;
 }
 
 nav {
     background-color: #04395E;
 }
 
-img:hover {
+#Headshot:hover {
     transition: transform 1s ease-in-out;
     transform: scale(2.5);
 }
@@ -31,11 +31,12 @@ li a {
     text-decoration: none;
     float: left;
     border-right: 1px solid #bbb;
+    border-left: 1px solid #bbb;
 }
 
-    li a:hover {
-        background-color: #031D44;
-    }
+li a:hover {
+    background-color: #031D44;
+}
 
 #Links {
     list-style-type: none;
@@ -43,28 +44,56 @@ li a {
     top: 0;
     width: 100%;
     background-color: #04395E;
+
 }
 
 #HomePage{
-    margin-bottom: 500px;
-    margin-top: 100px;
+    margin-bottom: 600px;
+    padding-top: 100px;
 }
 #AboutPage {
-    margin-bottom: 500px;
+    margin-bottom: 600px;
+    padding-top: 100px;
 }
 #ProjectsPage {
-    margin-bottom: 500px;
+    margin-bottom: 600px;
+    padding-top: 100px;
 }
 #SkillSetsPage {
-    margin-bottom: 500px;
+    margin-bottom: 600px;
+    padding-top: 100px;
 }
 
+p{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+h3 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
 
+ul {
+    padding-left: 100px;
+    padding-right: 100px;
+}
 
+#OUPrice {
+    background-color: #DAB785;
+    width: auto;
+    padding: 2%;
+}
+#Headshot {
+    background-color: #DAB785;
+    padding: 2%;
+}
 
-
-
-
-
-
-
+#LinkedInImage{
+    margin-left: 25%;
+    height: 250px;
+    width: 250px;
+}
+#Texas {
+    margin-left: 25%;
+    max-height: 250px;
+}
